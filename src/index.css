@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-search{
+    margin-right: 10rem;
+}
+
+.custom-hero{
+    line-height: 55px;
+}
+
+.card-line{
+    margin-bottom: 15px;
+    width: 50px;
+    height: 4px;
+    background-color: #f97316;
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-process{
+        text-align: center;
+    }
+ }
